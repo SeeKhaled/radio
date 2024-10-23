@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشغل Spreaker</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- الفريم الخاص بـ Spreaker مع خاصية sandbox -->
+    <iframe src="https://widget.spreaker.com/player?show_id=6115165&theme=dark&playlist=show&playlist-continuous=true&chapters-image=true" 
+            allow="autoplay; encrypted-media" 
+            sandbox="allow-same-origin allow-scripts" 
+            width="100%" height="100%"></iframe>
+</body>
+</html>
